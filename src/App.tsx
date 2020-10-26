@@ -5,6 +5,7 @@ import { CalculatorPage } from "./pages";
 const App = () => {
   return (
     <div className="App">
+      <h1>Hello Everyone !</h1>
       <CalculatorPage />
     </div>
   );
