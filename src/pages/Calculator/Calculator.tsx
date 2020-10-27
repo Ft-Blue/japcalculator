@@ -13,6 +13,8 @@ import kanjiLeft from "../../assets/kanji/Kanji-left.svg";
 import { FOOD_ITEMS, FoodItem } from "../../data/food";
 import { FoodTile } from "../../components";
 
+import { sendData } from "../../utils/send-data";
+
 type ClassNames =
   | "container"
   | "circleContainer"
@@ -76,7 +78,7 @@ export const CalculatorPage: React.FC<Props> = (props: Props) => {
             </div>
           </div>
           <div className={classes.buttonContainer}>
-            <Button variant="contained">{result} Kcal</Button>
+            <Button variant="contained" onClick={sendData(result)}>{result} Kcal</Button>
           </div>
         </div>
         <div className={classes.lateralBar}>
