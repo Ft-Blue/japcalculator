@@ -50,6 +50,7 @@
   "devDependencies": {
     "@types/history": "^4.7.5",
     "@types/react-redux": "^7.1.7",
+    "netlify-lambda": "^2.0.1",
     "yarn-audit-fix": "^3.2.11"
   }
 }
